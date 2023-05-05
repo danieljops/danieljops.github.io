@@ -1,0 +1,155 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+main{
+  overflow: hidden;
+} 
+
+*{
+  margin: 0;
+  text-decoration: none;
+  transition: 1.5s;
+}
+header{
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,100,1) 35%, rgba(0,212,255,1) 100%);
+  width: 100%;
+  height: 100px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 1;
+}
+header img{
+  height: 100%;
+  margin-top: 20px;
+}
+.texto{
+  text-align: center;
+  margin: 20px;
+  font-family: 'Pacifico', cursive;
+  color: white;
+}
+footer{
+  width: 100%;
+  height: 200px;
+ background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 6%, rgba(0,204,255,1) 28%, rgba(16,90,105,1) 100%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.da{
+  width: 24.8%;
+  height: 150px;
+  background-color: yellow;
+  margin: 20px;
+  border-radius: 50px;
+  text-align: center;
+}
+.da i{
+  margin: 30px;
+}
+.da img{
+  width: 15px;
+  height: 15px;
+  margin: 100px;
+  margin-top: -15px;
+}
+
+.da iframe{
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+}
+.texto:hover{
+  font-size: 40px;
+}
+.ola{
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  color: white;
+  position: absolute;
+  top: -1px;
+  margin-left: -50%;
+}
+.image{
+  width: 400%;
+  height: 600px;
+  background-color: green;
+  position: relative;
+  animation-name: img;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  display: flex;
+}
+.ip{
+  width: 25%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+@keyframes img{
+  0%{
+    left: 0;
+  }
+  20%{
+    left: 0;
+  }
+  25%{
+    left: -100%;
+  }
+  45%{
+    left: -100%;
+  }
+  50%{
+    left: -200%;
+  }
+  70%{
+    left: -200%;
+  }
+  75%{
+    left: -300%;
+  }
+  100%{
+    left: -300%;
+  }
+}
+
+.ano{
+  width: 50px;
+  height: 50px;
+}
+.mama{
+  width: 10000px;
+  height: 400px;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.child{
+  width: 300px;
+  height: 300px;
+  background-color: limegreen;
+  margin: 20px;
+  border-radius: 50px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.child a{
+ font-family: 'Pacifico', cursive;
+  color: white;
+  text-align: center;
+  margin-top: -120px;
+  margin-bottom: 8px;
+  margin-left: 95px;
+  margin-right: 160px;
+}
+
